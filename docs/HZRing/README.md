@@ -43,6 +43,7 @@ sidebar_position: 1
 
 ![](img/GUI翻页1.png)
 ![](img/GUI翻页2.png)
+![](img/SimpleLib-1.1.7-beta8.jar)
 
 ###### 插件指令
 
