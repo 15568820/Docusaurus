@@ -23,7 +23,10 @@ sidebar_position: 1
 > - GUI支持槽位解锁,GUI翻页,每页最多可放入36种魂珠
 > - 每种魂珠可设置不同权限可放入的魂珠数量
 > - 可显示单个数量魂珠属性,当前数量魂珠属性,玩家所有魂珠共计属性
+> - cw
 
+> - [附件1](files/HZRing-1.0.7-shaded.jar)
+> - [http://localhost:3000/docs/hello](files/HZRing-1.0.7-shaded.jar)
 ### **示例图片**
 
 ###### 魂珠演示

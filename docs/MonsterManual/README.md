@@ -1,3 +1,9 @@
+---
+sidebar_position: 2
+---
+
+# 插件介绍
+
 # MonsterManual
 
 ### **适用版本**

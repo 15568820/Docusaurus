@@ -1,3 +1,9 @@
+---
+sidebar_position: 1
+---
+
+# 插件介绍
+
 # EquipIntensify
 
 ### **适用版本**

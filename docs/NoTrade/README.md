@@ -1,3 +1,9 @@
+---
+sidebar_position: 2
+---
+
+# 插件介绍
+
 # NoTrade
 
 ### **适用版本**
