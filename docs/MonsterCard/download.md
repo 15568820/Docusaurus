@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# 更新日志
+# 插件下载
 
 ### 1.0.3
 

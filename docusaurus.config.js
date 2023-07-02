@@ -6,12 +6,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: '我的网站',
-    tagline: 'Dinosaurs are cool',
+    title: '首页',
+    tagline: '插件介绍文档',
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
-    url: 'https://your-docusaurus-test-site.com',
+    url: 'https://www.goodmc.cn/',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/',
@@ -64,7 +64,7 @@ const config = {
             // Replace with your project's social card
             image: 'img/docusaurus-social-card.jpg',
             navbar: {
-                title: '我的网站',
+                title: '首页',
                 logo: {
                     alt: 'My Site Logo',
                     src: 'img/logo.svg',
@@ -82,11 +82,7 @@ const config = {
                 style: 'dark',
                 links: [],
                 copyright:
-                    `
-              Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.
-              <br>
-              <a href="https://beian.miit.gov.cn/" target="_blank"style="color: white">闽ICP备2023002896号-1</a>
-          `,
+                    `Copyright © ${new Date().getFullYear()} QingShou All Rights Reserved. <a href="https://beian.miit.gov.cn/" target="_blank"style="color: white">闽ICP备2023002896号-1</a>`,
             },
             prism: {
                 theme: lightCodeTheme,
