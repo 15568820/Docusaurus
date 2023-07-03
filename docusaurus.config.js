@@ -9,7 +9,7 @@ const config = {
     title: '首页',
     tagline: '插件介绍文档',
     favicon: 'img/favicon.ico',
-
+    staticDirectories: ['static'],
     // Set the production url of your site here
     url: 'https://www.goodmc.cn/',
     // Set the /<baseUrl>/ pathname under which your site is served

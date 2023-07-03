@@ -25,8 +25,6 @@ sidebar_position: 1
 > - 可显示单个数量魂珠属性,当前数量魂珠属性,玩家所有魂珠共计属性
 > - cw
 
-> - [附件1](files/HZRing-1.0.7-shaded.jar)
-> - [http://localhost:3000/docs/hello](files/HZRing-1.0.7-shaded.jar)
 ### **示例图片**
 
 ###### 魂珠演示
