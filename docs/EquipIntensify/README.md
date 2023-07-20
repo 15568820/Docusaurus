@@ -106,6 +106,8 @@ Equip:
     point: 100
     # 升级成功的概率
     probability: 100
+    # 等级上限
+    level_max: 10
     # 显示在GUI的位置
     index: 10
     # 属性
@@ -144,6 +146,8 @@ Equip:
     point: 100
     # 升级成功的概率
     probability: 100
+    # 等级上限
+    level_max: 10
     # 显示在GUI的位置
     index: 12
     # 属性
