@@ -44,8 +44,11 @@ sidebar_position: 1
 
 ```yaml
 Config:
-  Code: "授权码"
-  # MySQL请在插件 SimpleLib 中配置
+  # 您的授权码
+  Code: "IKUN-JNTM-SZ666-SUSHAN"
+  # 是否使用MySQL
+  # false使用SQLite，true使用MySQL
+  # 数据库连接配置请在插件 SimpleLib 配置文件中配置
   MySQL: false
   # 卡牌
   Cards:
@@ -85,19 +88,88 @@ Config:
       Lore:
         - "§a点击打开下一页"
 Message:
-  prefix: "§8[§e怪物卡牌§8] "
   reload: "§a配置文件重载成功"
   permission_false: "§a您的权限不够"
   stats_true: "§a已激活"
   pagedown_false: "§a这已经是最后一页了."
   pageup_false: "§a这已经是第一页了."
-  card_true: "§a卡牌 §e%card% §a已成功激活."
+  card_true: "§a卡牌 §e{0} §a已成功激活."
   card_false: "§a您已经激活过这个卡牌了."
   attribute_true: "§a怪物卡牌属性生效成功."
-  Help:
-    - "§f "
-    - "§f   §8 §8[§e怪物卡牌§8]    "
-    - "§a/gwkp open §f打开卡牌界面"
-    - "§a/gwkp reload §f重载配置文件"
-    - "§f "
+  online_false: "§a玩家 §e{0} §a不在线"
+  level_false: "§a您未达到激活该卡牌的等级要求"
+```
+
+#### **套装配置**
+
+```yaml
+Template:
+  card_true: "§a%card%"
+  card_false: "§c%card%"
+  suit_true: "§8已激活"
+Suit:
+  测试套装1:
+    Name: "§c测试套装1"
+    Id: 340
+    Data: 0
+    Lore:
+      - "§e属性: "
+      - "§7攻击力:  §a1000"
+      - "§7生命上限:  §a10000"
+      - ""
+      - "§e详情: %card%"
+    Card:
+      - "测试卡牌2"
+      - "测试卡牌3"
+    Index: 10
+Gui:
+  # Gui标题
+  Title: "§c§l卡牌套装"
+  # Gui大小 9的倍数(9,18,27,36,45,54)
+  Size: 27
+  Item:
+    # 复制粘贴可按照此格式添加更多物品来自定义GUI
+    decorate:
+      Name: "§f玻璃板"
+      Id: 160
+      Data: 15
+      Lore:
+        - " "
+      # 该物品的位子
+      Index:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+    decorate2:
+      Name: "§f玻璃板"
+      Id: 160
+      Data: 15
+      Lore:
+        - " "
+      # 该物品的位子
+      Index:
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
 ```
