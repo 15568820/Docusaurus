@@ -4,7 +4,17 @@ sidebar_position: 3
 
 # 插件下载
 
-###         
+###          
+
+:::info`1.0.8`
+**修复**
+
+1. 套装生效问题
+
+**附件**
+
+[EquipIntensify-1.0.8.jar](files/EquipIntensify-1.0.8.jar)
+:::
 
 :::info`1.0.7`
 **修复**
