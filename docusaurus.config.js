@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: '首页',
-    tagline: '插件介绍文档',
+    tagline: '清守 Minecraft 插件文档大全',
     favicon: 'img/favicon.ico',
     staticDirectories: ['static'],
     // Set the production url of your site here
