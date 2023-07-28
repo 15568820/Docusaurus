@@ -10,5 +10,5 @@ sidebar_position: 2
 
 **附件**
 暂无
-[//]: # ([SpaceRingPlus-1.0.0.jar]&#40;files/SpaceRingPlus-1.0.0.jar&#41;)
+[SpaceRingPlus-1.0.0.jar](files/SpaceRingPlus-1.0.0.jar)
 :::
