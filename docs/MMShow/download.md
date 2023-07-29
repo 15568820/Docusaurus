@@ -11,7 +11,7 @@ sidebar_position: 2
 
 **附件**
 
-[MMShow-1.0.1.jar](files/MMShow-1.0.1.jar)
+[MMShow-1.0.1.jar](https://www.goodmc.cn/plugin/MMShow/MMShow-1.0.1.jar)
 :::
 
 :::info 1.0.1

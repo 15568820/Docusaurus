@@ -13,7 +13,7 @@ sidebar_position: 2
 
 **附件**
 
-[KLRingExchange-1.0.5.jar](files/KLRingExchange-1.0.5.jar)
+[KLRingExchange-1.0.5.jar](https://www.goodmc.cn/plugin/KLRingExchange/KLRingExchange-1.0.5.jar)
 
 :::
 
@@ -30,7 +30,7 @@ sidebar_position: 2
 
 **附件**
 
-[KLRingExchange-1.0.4.jar](files/KLRingExchange-1.0.4.jar)
+[KLRingExchange-1.0.4.jar](https://www.goodmc.cn/plugin/KLRingExchange/KLRingExchange-1.0.4.jar)
 :::
 
 :::info`1.0.3`

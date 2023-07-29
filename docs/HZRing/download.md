@@ -14,8 +14,9 @@ sidebar_position: 2
 
 **附件**
 
-[HZRing-1.0.7.jar](files/HZRing-1.0.7.jar)
+[HZRing-1.0.7.jar](https://www.goodmc.cn/plugin/HZRing/HZRing-1.0.7.jar)
 :::
+
 
 :::info`1.0.6`
 **修复**
@@ -23,6 +24,7 @@ sidebar_position: 2
 1. 优化插件流畅度，提高插件稳定性
 2. 优化戒指占用
    :::
+
 
 :::info`1.0.5`
 **修复**

@@ -9,5 +9,5 @@ sidebar_position: 2
 
 **附件**
 
-[SpaceRingExchange-1.0.0.jar](files/SpaceRingExchange-1.0.0.jar)
+[SpaceRingExchange-1.0.0.jar](https://www.goodmc.cn/plugin/SpaceRingExchange/SpaceRingExchange-1.0.0.jar)
 :::

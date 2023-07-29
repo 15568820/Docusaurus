@@ -13,7 +13,7 @@ sidebar_position: 2
 
 **附件**
 
-[MonsterCard-1.0.7.jar](files/MonsterCard-1.0.7.jar)
+[MonsterCard-1.0.7.jar](https://www.goodmc.cn/plugin/MonsterCard/MonsterCard-1.0.7.jar)
 :::
 
 :::info`1.0.6`
@@ -27,7 +27,7 @@ sidebar_position: 2
 
 **附件**
 
-[MonsterCard-1.0.6.jar](files/MonsterCard-1.0.6.jar)
+[MonsterCard-1.0.6.jar](https://www.goodmc.cn/plugin/MonsterCard/MonsterCard-1.0.6.jar)
 :::
 
 :::info`1.0.5-fix1`
@@ -38,7 +38,7 @@ sidebar_position: 2
 
 **附件**
 
-[MonsterCard-1.0.5-fix1.jar](files/MonsterCard-1.0.5-fix1.jar)
+[MonsterCard-1.0.5-fix1.jar](https://www.goodmc.cn/plugin/MonsterCard/MonsterCard-1.0.5-fix1.jar)
 :::
 
 :::info`1.0.4`
@@ -48,7 +48,7 @@ sidebar_position: 2
 
 **附件**
 
-[MonsterCard-1.0.4.jar](files/MonsterCard-1.0.4.jar)
+[MonsterCard-1.0.4.jar](https://www.goodmc.cn/plugin/MonsterCard/MonsterCard-1.0.4.jar)
 :::
 
 :::info`1.0.3`
@@ -60,7 +60,7 @@ sidebar_position: 2
 
 **附件**
 
-[MonsterCard-1.0.3.jar](files/MonsterCard-1.0.3.jar)
+[MonsterCard-1.0.3.jar](https://www.goodmc.cn/plugin/MonsterCard/MonsterCard-1.0.3.jar)
 :::
 
 :::info`1.0.2`

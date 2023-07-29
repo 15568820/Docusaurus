@@ -12,7 +12,7 @@ sidebar_position: 3
 
 **附件**
 
-[MonsterManual-1.0.6.jar](files/MonsterManual-1.0.6.jar)
+[MonsterManual-1.0.6.jar](https://www.goodmc.cn/plugin/MonsterManual/MonsterManual-1.0.6.jar)
 :::
 
 :::info`1.0.5`
@@ -24,7 +24,7 @@ sidebar_position: 3
 
 **附件**
 
-[MonsterManual-1.0.5.jar](files/MonsterManual-1.0.5.jar)
+[MonsterManual-1.0.5.jar](https://www.goodmc.cn/plugin/MonsterManual/MonsterManual-1.0.5.jar)
 :::
 
 :::info`1.0.4`

@@ -12,7 +12,7 @@ sidebar_position: 2
 
 **附件**
 
-[NoTrade-1.0.4.jar](files/NoTrade-1.0.4.jar)
+[NoTrade-1.0.4.jar](https://www.goodmc.cn/plugin/NoTrade/NoTrade-1.0.4.jar)
 :::
 
 :::info`1.0.3`
@@ -23,7 +23,7 @@ sidebar_position: 2
 
 **附件**
 
-[NoTrade-1.0.3.jar](files/NoTrade-1.0.3.jar)
+[NoTrade-1.0.3.jar](https://www.goodmc.cn/plugin/NoTrade/NoTrade-1.0.3.jar)
 :::
 
 :::info`1.0.2`

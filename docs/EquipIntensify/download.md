@@ -13,7 +13,7 @@ sidebar_position: 3
 
 **附件**
 
-[EquipIntensify-1.0.8.jar](files/EquipIntensify-1.0.8.jar)
+[EquipIntensify-1.0.8.jar](https://www.goodmc.cn/plugin/EquipIntensify/EquipIntensify-1.0.8.jar)
 :::
 
 :::info`1.0.7`
@@ -25,7 +25,7 @@ sidebar_position: 3
 
 **附件**
 
-[EquipIntensify-1.0.7.jar](files/EquipIntensify-1.0.7.jar)
+[EquipIntensify-1.0.7.jar](https://www.goodmc.cn/plugin/EquipIntensify/EquipIntensify-1.0.7.jar)
 :::
 
 :::info`1.0.6`
@@ -47,6 +47,7 @@ sidebar_position: 3
 
 1. 优化插件流畅度，提高插件稳定性
    :::
+
 
 :::info`1.0.4`
 **修复**
