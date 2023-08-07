@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # 插件下载
 
-:::info`1.0.2`
+:::info`1.0.3`
 
 **修复**
 
@@ -12,7 +12,15 @@ sidebar_position: 2
 
 **附件**
 
-[SpaceRingPlus-1.0.2.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus-1.0.2.jar)
+[SpaceRingPlus-1.0.3.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus-1.0.3.jar)
+:::
+
+:::info`1.0.2`
+
+**修复**
+
+1. 修复上个版本不保存解锁数据的问题
+
 :::
 
 :::info`1.0.1`
@@ -24,9 +32,6 @@ sidebar_position: 2
 3. 解锁方案新增默认解锁槽位数量
 4. 修复KLRing数据大小写导致数据导入产生的问题
 
-**附件**
-
-[SpaceRingPlus-1.0.1.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus-1.0.1.jar)
 :::
 
 :::info`1.0.0`
