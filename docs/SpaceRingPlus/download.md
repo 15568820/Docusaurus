@@ -4,6 +4,18 @@ sidebar_position: 2
 
 # 插件下载
 
+:::info`1.0.4`
+
+**修复**
+
+1. 修复插件产生错误数据的问题
+
+**附件**
+
+[SpaceRingPlus-1.0.4.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus-1.0.4.jar)
+
+:::
+
 :::info`1.0.3`
 
 **修复**
@@ -11,9 +23,6 @@ sidebar_position: 2
 1. 优化跨服同步问题
 2. 修复无数据的情况掉落物无法进入仓库的问题
 
-**附件**
-
-[SpaceRingPlus-1.0.3.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus-1.0.3.jar)
 :::
 
 :::info`1.0.2`
