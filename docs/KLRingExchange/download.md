@@ -4,16 +4,34 @@ sidebar_position: 2
 
 # 插件下载
 
+:::info`1.0.7`
+
+**修复**
+
+1. 修复兑换界面打开目标问题
+
+**附件**
+
+[KLRingExchange-1.0.7.jar](https://www.goodmc.cn/plugin/KLRingExchange/KLRingExchange-1.0.7.jar)
+
+:::
+
+:::info`1.0.6`
+
+**修复**
+
+1. 修复open指令玩家目标错误的问题
+
+:::
+
+# 插件下载
+
 :::info`1.0.5`
 
 **修复**
 
 1. 优化插件流畅度，提高插件稳定性
 2. 优化open指令逻辑
-
-**附件**
-
-[KLRingExchange-1.0.5.jar](https://www.goodmc.cn/plugin/KLRingExchange/KLRingExchange-1.0.5.jar)
 
 :::
 
@@ -28,9 +46,6 @@ sidebar_position: 2
 2. 编辑界面指令无权限判断
 3. open指令中的玩家和兑换名顺序错误
 
-**附件**
-
-[KLRingExchange-1.0.4.jar](https://www.goodmc.cn/plugin/KLRingExchange/KLRingExchange-1.0.4.jar)
 :::
 
 :::info`1.0.3`

@@ -4,15 +4,31 @@ sidebar_position: 2
 
 # 插件下载
 
+:::info`1.0.6`
+
+**修复**
+
+1. 优化SQLite和MySQL操作代码,增强稳定性
+
+**附件**
+
+[SpaceRingPlus-1.0.6.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus-1.0.6.jar)
+
+:::
+
+:::info`1.0.5`
+
+**修复**
+
+1. 修复MM怪物Drops获得双倍物品的问题
+
+:::
+
 :::info`1.0.4`
 
 **修复**
 
 1. 修复插件产生错误数据的问题
-
-**附件**
-
-[SpaceRingPlus-1.0.4.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus-1.0.4.jar)
 
 :::
 
