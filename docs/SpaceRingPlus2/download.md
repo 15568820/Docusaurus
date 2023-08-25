@@ -12,7 +12,7 @@ sidebar_position: 3
 
 **附件**
 
-[SpaceRingPlus2-1.01.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.0.1.jar)
+[SpaceRingPlus2-1.0.1.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.0.1.jar)
 
 :::
 
@@ -34,13 +34,9 @@ sidebar_position: 3
 2. 新增备份数据导入
 3. 兼容SX-Attribute和OriginAttribute物品库
 
-**附件**
-
-[SpaceRingPlus2-1.0.0.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.0.0.jar)
-
 :::
 
-#### 以下为旧版更新日志
+#### 以下为旧版更新日志,非该插件最新版
 
 :::info`1.0.7`
 
