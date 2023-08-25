@@ -4,11 +4,23 @@ sidebar_position: 3
 
 # 插件下载
 
+:::info `1.0.2`
+
+**优化**
+
+1. 优化give指令物品叠加问题
+
+**附件**
+
+[SpaceRingPlus2-1.0.2.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.0.2.jar)
+
+:::
+
 :::info `1.0.1`
 
 **优化**
 
-1. 修复srp give指令异常
+1. 修复give指令异常
 
 **附件**
 
