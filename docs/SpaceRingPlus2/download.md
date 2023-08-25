@@ -4,6 +4,18 @@ sidebar_position: 3
 
 # 插件下载
 
+:::info `1.0.1`
+
+**优化**
+
+1. 修复srp give指令异常
+
+**附件**
+
+[SpaceRingPlus2-1.01.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.0.1.jar)
+
+:::
+
 :::info `1.0.0`
 
 **优化**
