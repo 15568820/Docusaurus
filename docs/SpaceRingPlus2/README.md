@@ -8,22 +8,23 @@ sidebar_position: 1
 
 ### **适用版本**
 
-> 1.12.2
+> 1.8-1.20
 
 ### **依赖插件**
 
-> - 必要: SimpleLib (群内下载)
 > - 必要: MythicMobs
 > - 可选: PlayerPoints
 > - 可选: Vault
 > - 可选: NeigeItems
+> - 可选: OriginAttribute
 > - 可选: PlaceholderAPI
+> - 可选: SimpleLib
 
 ### **插件介绍**
 
 > - 支持JSON,SQLite,MySQL三种存储方式
 > - 支持槽位解锁数量,所需金币,所需点券要求,每页最多可放入45格物品
-> - 支持NeigeItems,MythicMobs物品给予玩家仓库
+> - 支持MythicMobs,NeigeItems,OriginAttribute物品给予玩家仓库
 > - 支持定时备份和手动备份玩家数据
 > - 支持完整导入KLRing玩家数据
 > - 自动拾取MythicMobs怪物Drops
@@ -156,10 +157,10 @@ sidebar_position: 1
         # 按钮位置不要填灵魂空间存储区域，否则会出问题
         Index: 49
           # 后台执行指令
-          # Commands:
-          # 默认后台执行
-          # - "msg %player_name% 点击1成功"
-          # 玩家执行
+        # Commands:
+        # 默认后台执行
+        # - "msg %player_name% 点击1成功"
+        # 玩家执行
         # - "player:msg %player_name% 点击1成功"
         # OP执行
         # - "op:msg %player_name% 点击1功"

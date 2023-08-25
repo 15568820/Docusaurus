@@ -4,7 +4,7 @@
 # Production
 /build
 
-# Generated SpaceRingPlus
+# Generated SpaceRingPlus2
 .docusaurus
 .cache-loader
 
