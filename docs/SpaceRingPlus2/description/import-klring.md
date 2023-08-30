@@ -16,6 +16,7 @@ sidebar_position: 3
 2. 下载并配置好本插件
 3. 插件配置文件目录下创建`klring`目录，路径为`plugins/SpaceRingPlus2/klring`
 4. 将`plugins/KLRing/data/soul-space`目录下的所有文件复制到`plugins/SpaceRingPlus2/klring`(效果如下图所示)
-   完成以上操作玩家进服时数据会自动导入
+
+完成以上操作玩家进服时数据会自动导入
 
 ![](img/KLRing数据导入.png)
