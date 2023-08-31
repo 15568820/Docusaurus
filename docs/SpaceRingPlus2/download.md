@@ -4,6 +4,19 @@ sidebar_position: 3
 
 # 插件下载
 
+:::info `1.0.5`
+
+**更新**
+
+1. 修复数据文件和备份文件无法创建的问题
+
+**附件**
+
+[SpaceRingPlus2-1.0.5.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.0.5.jar)
+
+:::
+
+
 :::info `1.0.4`
 
 **更新**

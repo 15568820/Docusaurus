@@ -6,6 +6,17 @@ sidebar_position: 3
 
 ###          
 
+:::info`1.1.0`
+**更新**
+
+1. 修复获取不到MM物品报错的问题
+2. 兼容NeigeItems物品库
+
+**附件**
+
+[EquipIntensify-1.1.0.jar](https://www.goodmc.cn/plugin/EquipIntensify/EquipIntensify-1.1.0.jar)
+:::
+
 :::info`1.0.8`
 **更新**
 
@@ -22,9 +33,6 @@ sidebar_position: 3
 1. 优化 equipi open 指令逻辑
 2. 优化 MySQL 连接池
 
-**附件**
-
-[EquipIntensify-1.0.7.jar](https://www.goodmc.cn/plugin/EquipIntensify/EquipIntensify-1.0.7.jar)
 :::
 
 :::info`1.0.6`
