@@ -4,15 +4,26 @@ sidebar_position: 3
 
 # 插件下载
 
+:::info `1.0.6`
+
+**更新**
+
+1. 新增更新检测
+2. 优化备份管理模块
+3. 修复一项安全问题
+4. 修复框架属性组件报错问题
+
+**附件**
+
+[SpaceRingPlus2-1.0.6.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.0.6.jar)
+
+:::
+
 :::info `1.0.5`
 
 **更新**
 
 1. 修复数据文件和备份文件无法创建的问题
-
-**附件**
-
-[SpaceRingPlus2-1.0.5.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.0.5.jar)
 
 :::
 
@@ -25,11 +36,7 @@ sidebar_position: 3
 2. Cron定时备份改为间隔时间备份(具体留意新配置文件)
 3. 配置文件自动更新
 
-此处省略10余项调整
-
-**附件**
-
-[SpaceRingPlus2-1.0.4.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.0.4.jar)
+等省略10余项改动
 
 :::
 

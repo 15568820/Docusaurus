@@ -6,15 +6,23 @@ sidebar_position: 3
 
 ###          
 
+:::info`1.1.1`
+**更新**
+
+1. 修复养成等级达到上限也扣除升级材料的问题
+
+**附件**
+
+[EquipIntensify-1.1.1.jar](https://www.goodmc.cn/plugin/EquipIntensify/EquipIntensify-1.1.1.jar)
+
+:::
+
 :::info`1.1.0`
 **更新**
 
 1. 修复获取不到MM物品报错的问题
 2. 兼容NeigeItems物品库
 
-**附件**
-
-[EquipIntensify-1.1.0.jar](https://www.goodmc.cn/plugin/EquipIntensify/EquipIntensify-1.1.0.jar)
 :::
 
 :::info`1.0.8`
@@ -22,9 +30,6 @@ sidebar_position: 3
 
 1. 修复套装生效问题
 
-**附件**
-
-[EquipIntensify-1.0.8.jar](https://www.goodmc.cn/plugin/EquipIntensify/EquipIntensify-1.0.8.jar)
 :::
 
 :::info`1.0.7`

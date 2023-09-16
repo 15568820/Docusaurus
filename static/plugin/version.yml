@@ -1,0 +1,14 @@
+version: 1.0.0
+plugins:
+  SpaceRingPlus2:
+    version: 1.0.5
+    url: https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.0.5.jar
+    update:
+      - "啥也没有1"
+      - "啥也没有2"
+message:
+  prefix: "§8[§c{0}§8] "
+  version: "§a发现新版本 §e{0}"
+  download: "§a下载地址：§e{0}"
+  update: "§a更新内容："
+  update_head: "§e"
