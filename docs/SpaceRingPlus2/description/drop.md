@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 掉落物自动进入
+# 掉落物配置
 
 :::danger 警告
 替换前请先备份MythicMobs所有配置文件

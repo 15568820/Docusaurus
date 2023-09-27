@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# 迁移KLRing数据
+# KLRing迁移
 
 :::danger 警告
 请在测试服实操确保没问题并备份好数据再在主服进行操作

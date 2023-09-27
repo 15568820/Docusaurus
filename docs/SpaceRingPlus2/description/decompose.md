@@ -1,14 +1,20 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 ---
 
-# 升级2.X
+# 分解教程
 
-:::danger 警告
-请在测试服实操确保没问题并备份好数据再在主服进行操作
-:::
+### **奖励说明**
 
-### **数据迁移**
+#### **类型**
+
+| 参数      | 说明              |
+|---------|-----------------|
+| mm      | MythicMobs物品库   |
+| ni      | NeigeItems物品库   |
+| sx      | SX-Attribute物品库 |
+| command | 指令              |
+| message | 消息提示            |
 
 要升级新版，请执行以下步骤：
 

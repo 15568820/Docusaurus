@@ -4,6 +4,29 @@ sidebar_position: 3
 
 # 插件下载
 
+:::info `1.1.1`
+
+**更新**
+
+1. 修复分解判断问题
+
+**附件**
+
+[SpaceRingPlus2-1.1.1.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.1.1.jar)
+
+:::
+
+:::info `1.1.0`
+
+**更新**
+
+1. 新增仓库物品分解
+2. 新增功能菜单
+3. 将垃圾桶移至功能菜单
+4. 修复仓库物品数量为0的问题
+
+:::
+
 :::info `1.0.6`
 
 **更新**
@@ -12,10 +35,6 @@ sidebar_position: 3
 2. 优化备份管理模块
 3. 修复一项安全问题
 4. 修复框架属性组件报错问题
-
-**附件**
-
-[SpaceRingPlus2-1.0.6.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.0.6.jar)
 
 :::
 
