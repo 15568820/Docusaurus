@@ -13,7 +13,7 @@ sidebar_position: 3
 
 **附件**
 
-[EquipIntensify-1.1.2.jar](https://www.goodmc.cn/plugin/EquipIntensify/EquipIntensify-1.1.2 .jar)
+[EquipIntensify-1.1.2.jar](https://www.goodmc.cn/plugin/EquipIntensify/EquipIntensify-1.1.2.jar)
 
 :::
 
