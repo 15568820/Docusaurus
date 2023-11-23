@@ -1,11 +1,12 @@
 version: 1.0.0
 plugins:
   SpaceRingPlus2:
-    version: 1.0.5
-    url: https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.0.5.jar
+    version: 1.2.0
+    url: https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.2.0.jar
     update:
-      - "啥也没有1"
-      - "啥也没有2"
+      - "1.新增分解奖励类型金币和点券"
+      - "2.修复部分场景堆叠上限无效的问题"
+      - "3.修复MySQL连接池BUG"
 message:
   prefix: "§8[§c{0}§8] "
   version: "§a发现新版本 §e{0}"

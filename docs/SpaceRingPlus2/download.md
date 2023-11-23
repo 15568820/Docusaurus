@@ -4,15 +4,39 @@ sidebar_position: 3
 
 # 插件下载
 
+:::info `1.2.0`
+
+**更新**
+
+1. 新增分解奖励类型金币和点券
+2. 修复部分场景堆叠上限无效的问题
+3. 修复MySQL连接池BUG
+
+**附件**
+
+[SpaceRingPlus2-1.2.0.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.2.0.jar)
+
+:::
+
+:::info `1.1.2`
+
+**更新**
+
+1. 优化背包剩余空间获取问题
+2. 修复属性插件冲突和报错问题
+3. 修复mod服兼容问题
+4. 修复灵魂空间已满物品进入背包提示错误
+5. 修复自定义按钮页面无法跳转问题
+6. 修复与个别拾取类型插件的冲突
+7. 修复垃圾桶按钮开关无效问题
+8. 新增仓库页面自定义按钮保持参数
+   :::
+
 :::info `1.1.1`
 
 **更新**
 
 1. 修复分解判断问题
-
-**附件**
-
-[SpaceRingPlus2-1.1.1.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.1.1.jar)
 
 :::
 

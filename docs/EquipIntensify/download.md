@@ -4,16 +4,24 @@ sidebar_position: 3
 
 # 插件下载
 
-###          
+###        
+
+:::info`1.1.2`
+**更新**
+
+1. 修复升级概率显示问题
+
+**附件**
+
+[EquipIntensify-1.1.2.jar](https://www.goodmc.cn/plugin/EquipIntensify/EquipIntensify-1.1.2 .jar)
+
+:::
+
 
 :::info`1.1.1`
 **更新**
 
 1. 修复养成等级达到上限也扣除升级材料的问题
-
-**附件**
-
-[EquipIntensify-1.1.1.jar](https://www.goodmc.cn/plugin/EquipIntensify/EquipIntensify-1.1.1.jar)
 
 :::
 

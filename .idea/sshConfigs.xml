@@ -2,7 +2,8 @@
 <project version="4">
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="shanghai-1.goodmc.cn" id="bf89f3d3-224e-4856-b24a-ba2b861d1c8b" port="22" nameFormat="DESCRIPTIVE" username="root" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="本地主机" id="bf89f3d3-224e-4856-b24a-ba2b861d1c8b" port="22" nameFormat="DESCRIPTIVE" username="root" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="124.220.48.123" id="97bafd22-e572-4bd5-b591-378675d2f8ed" port="22" nameFormat="DESCRIPTIVE" username="root" useOpenSSHConfig="true" />
     </configs>
   </component>
 </project>
