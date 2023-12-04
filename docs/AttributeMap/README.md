@@ -13,6 +13,7 @@ sidebar_position: 1
 ### **依赖插件**
 
 > - 必要: SimpleLib (群内下载)
+> - 必要: SX-Attribute
 
 ### **插件介绍**
 
