@@ -21,7 +21,9 @@ sidebar_position: 1
 
 ### **插件介绍**
 
+> - 支持JSON,MySQL存储
 > - 刮出的号码和中奖号码相同就获得对应奖励
+> - 每个奖励有次数统计(抽到会重置)和保底
 > - 奖励支持MythicMobs,SX-Attribute,NeigeItems,OriginAttribute物品库
 > - 奖励支持Vault,PlayerPoints货币
 
@@ -38,6 +40,35 @@ sidebar_position: 1
 ### **配置文件**
 
 <details>
+<summary>config.yml</summary>
+
+  ```yaml
+# 您的授权码
+code: "IKUN-JNTM-SZ666-SUSHAN"
+database:
+  # 开启MySQL
+  enable: false
+  # 数据库
+  mysql:
+    host: localhost
+    port: 3306
+    user: root
+    password: root
+    database: minecraft
+# 备份
+backup:
+  # 备份间隔,支持单位: d,h,m,s
+  # 例如: 1h30m
+  period: 8h
+  # 保留备份文件数量
+  reserve: 100
+
+  ```
+
+</details>
+
+
+<details>
 <summary>刮刮卡示例配置</summary>
 
   ```yaml
@@ -51,6 +82,7 @@ card:
   lore:
     - "§d刮刮卡"
 # 奖励列表
+# 帮助文档 https://www.goodmc.cn/docs/ScratchCard/description/reward
 reward:
   # 可随意命名
   10000金币:
@@ -60,21 +92,8 @@ reward:
     probability: 0.5
     # 出现的权重
     weight: 100
-    # 奖励列表
-    # 参数 type(类型),
-    # mm —— MythicMobs物品库
-    # ni —— NeigeItems物品库
-    # sx —— SX-Attribute物品库
-    # money —— 金币
-    # playerpoints —— PlayerPoints 点券
-    # command —— 指令
-    # message —— 消息提示
-    #
-    # 参数 id,物品库对应的物品id
-    # 参数 amount,物品数量
-    # 参数 command,类型 command 对应的指令参数
-    # 参数 message,类型 message 对应的消息参数
-    # 参数 server,类型 message 对应的参数,true为全服通知,false为仅该玩家通知
+    # 保底,不用则填0或删除
+    must: 0
     list:
       - "type=money,amount=1000"
       - "type=message,message='§a恭喜玩家 §e%player_name% §a在花开富贵中开出了 §e10000金币'"
@@ -85,6 +104,8 @@ reward:
     probability: 0.1
     # 出现的权重
     weight: 20
+    # 保底,不用则填0或删除
+    must: 10
     # 奖励列表
     list:
       - "type=playerpoints,amount=500"
@@ -96,6 +117,8 @@ reward:
     amount: 10
     # 概率,1.0为100%
     probability: 0.25
+    # 保底,不用则填0或删除
+    must: 10
     # 出现的权重
     weight: 50
     # 奖励列表
@@ -159,7 +182,8 @@ materials:
     name: "§f号码: §6§l%number%"
     lore:
       - "§f奖励: %reward%"
-      - ""
+      - "§f已开: %total%"
+      - "§f保底: %must%"
       - "%status%"
   ```
 
