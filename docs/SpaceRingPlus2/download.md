@@ -4,6 +4,18 @@ sidebar_position: 3
 
 # 插件下载
 
+:::info `1.2.3`
+
+**更新**
+
+1. 新增自定义数据文件存储路径
+
+**附件**
+
+[SpaceRingPlus2-1.2.3.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.2.3.jar)
+
+:::
+
 :::info `1.2.2`
 
 **更新**

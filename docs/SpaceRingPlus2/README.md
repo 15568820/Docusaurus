@@ -67,6 +67,9 @@ code: "IKUN-JNTM-SZ666-SUSHAN"
 database:
   # 存储方式 JSON,SQLITE,MYSQL
   type: JSON
+  # 数据文件存储路径(不需要勿使用该参数)
+  # path: "plugins/SpaceRingPlus2/data"
+
   # 数据库
   mysql:
     host: localhost
