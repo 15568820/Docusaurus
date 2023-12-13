@@ -32,10 +32,6 @@ sidebar_position: 3
 1. 优化插件流畅度，提高插件稳定性
 2. 新增独立给予指令srg,支持倍率给予和全服给予
 
-**附件**
-
-[SpaceRingPlus2-1.2.2.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.2.2.jar)
-
 :::
 
 :::info `1.2.0`
@@ -45,10 +41,6 @@ sidebar_position: 3
 1. 新增分解奖励类型金币和点券
 2. 修复部分场景堆叠上限无效的问题
 3. 修复MySQL连接池BUG
-
-**附件**
-
-[SpaceRingPlus2-1.2.0.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.2.0.jar)
 
 :::
 
