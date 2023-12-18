@@ -4,15 +4,22 @@ sidebar_position: 2
 
 # 插件下载
 
+:::info`1.0.5`
+
+**更新**
+
+1. 修复指令只限制配置文件第一行的问题
+
+**附件**
+
+[NoTrade-1.0.5.jar](https://www.goodmc.cn/plugin/NoTrade/NoTrade-1.0.5.jar)
+:::
+
 :::info`1.0.4`
 
 **更新**
 
 1. 修复数字键无法限制的BUG
-
-**附件**
-
-[NoTrade-1.0.4.jar](https://www.goodmc.cn/plugin/NoTrade/NoTrade-1.0.4.jar)
 :::
 
 :::info`1.0.3`
@@ -21,9 +28,6 @@ sidebar_position: 2
 
 1. 修复点击GUI报错的问题
 
-**附件**
-
-[NoTrade-1.0.3.jar](https://www.goodmc.cn/plugin/NoTrade/NoTrade-1.0.3.jar)
 :::
 
 :::info`1.0.2`

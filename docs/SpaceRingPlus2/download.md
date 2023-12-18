@@ -4,17 +4,25 @@ sidebar_position: 3
 
 # 插件下载
 
+:::info `1.2.5`
+
+**更新**
+
+1. 修复默认仓库页数配置文件不生效问题
+
+**附件**
+
+[SpaceRingPlus2-1.2.5.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.2.5.jar)
+
+:::
+
+
 :::info `1.2.4`
 
 **更新**
 
 1. 修复MySQL同步问题
 2. 新增功能页面自定义按钮
-
-**附件**
-
-[SpaceRingPlus2-1.2.4.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.2.4.jar)
-
 :::
 
 :::info `1.2.3`
