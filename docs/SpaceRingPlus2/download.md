@@ -4,15 +4,32 @@ sidebar_position: 3
 
 # 插件下载
 
+:::info `1.2.7`
+
+**更新**
+
+1. 修复面板服无法使用问题
+2. 修复倍率给予权限节点判断错误
+
+**附件**
+
+[SpaceRingPlus2-1.2.7.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.2.7.jar)
+
+:::
+
+:::info `1.2.6`
+
+**更新**
+
+1. 修复多倍分解物品金币和点券数量问题
+
+:::
+
 :::info `1.2.5`
 
 **更新**
 
 1. 修复默认仓库页数配置文件不生效问题
-
-**附件**
-
-[SpaceRingPlus2-1.2.5.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.2.5.jar)
 
 :::
 

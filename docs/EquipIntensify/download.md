@@ -6,14 +6,21 @@ sidebar_position: 3
 
 ###        
 
+:::info`1.1.3`
+**更新**
+
+1. 修复升级时提示属性提升数值显示错误问题
+
+**附件**
+
+[EquipIntensify-1.1.3.jar](https://www.goodmc.cn/plugin/EquipIntensify/EquipIntensify-1.1.3.jar)
+
+:::
+
 :::info`1.1.2`
 **更新**
 
 1. 修复升级概率显示问题
-
-**附件**
-
-[EquipIntensify-1.1.2.jar](https://www.goodmc.cn/plugin/EquipIntensify/EquipIntensify-1.1.2.jar)
 
 :::
 
