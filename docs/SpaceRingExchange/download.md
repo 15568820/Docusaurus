@@ -4,15 +4,24 @@ sidebar_position: 2
 
 # 插件下载
 
+:::info`1.0.5`
+
+**更新**
+
+1. 移除插件授权,此版本无需填写授权码
+
+**附件**
+
+[SpaceRingExchange-1.0.5.jar](https://www.goodmc.cn/plugin/SpaceRingExchange/SpaceRingExchange-1.0.5.jar)
+
+:::
+
+
 :::info`1.0.4`
 
 **更新**
 
 1. 兼容SpaceRingPlus 2.X版本(不兼容1.X)
-
-**附件**
-
-[SpaceRingExchange-1.0.4.jar](https://www.goodmc.cn/plugin/SpaceRingExchange/SpaceRingExchange-1.0.4.jar)
 
 :::
 
@@ -21,11 +30,6 @@ sidebar_position: 2
 **更新**
 
 1. 修复兑换界面打开目标问题
-
-**附件**
-
-[SpaceRingExchange-1.0.3.jar](https://www.goodmc.cn/plugin/SpaceRingExchange/SpaceRingExchange-1.0.3.jar)
-
 :::
 
 :::info`1.0.2`
