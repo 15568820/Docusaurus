@@ -61,9 +61,3 @@ sidebar_position: 3
 2. 新增MySQL存储
 
 :::
-
-:::info`1.0.0`
-
-**插件发售**
-
-:::
