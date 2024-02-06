@@ -4,6 +4,30 @@ sidebar_position: 3
 
 # 插件下载
 
+:::info `1.2.9`
+
+**更新**
+
+1. 优化与其它插件冲突问题
+
+**附件**
+
+[SpaceRingPlus2-1.2.9.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.2.9.jar)
+
+:::
+
+:::info `1.2.8`
+
+**更新**
+
+1. 大幅降低插件性能占用
+2. 新增物品给予倍率查询指令
+3. 优化分解方案读取顺序
+4. 修复MySQL无法使用问题
+5.
+
+:::
+
 :::info `1.2.7`
 
 **更新**
@@ -14,11 +38,6 @@ sidebar_position: 3
 4. 移除弃用的指令srp convert
 5. 移除第54页的下一页按钮
 6. 优化指令排序
-
-**附件**
-
-[SpaceRingPlus2-1.2.7.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.2.7.jar)
-
 :::
 
 :::info `1.2.6`
@@ -86,6 +105,7 @@ sidebar_position: 3
 7. 修复垃圾桶按钮开关无效问题
 8. 新增仓库页面自定义按钮保持参数
    :::
+
 
 :::info `1.1.1`
 
@@ -234,7 +254,7 @@ sidebar_position: 3
 
 **更新**
 
-1. 修复上个版本不保存解锁数据的问题
+1. 修复解锁数据不保存的问题
 
 :::
 
@@ -246,11 +266,5 @@ sidebar_position: 3
 2. 不强制服务器安装PlaceholderAPI和Vault
 3. 解锁方案新增默认解锁槽位数量
 4. 修复KLRing数据大小写导致数据导入产生的问题
-
-:::
-
-:::info`1.0.0`
-
-插件发售
 
 :::

@@ -6,6 +6,8 @@ sidebar_position: 1
 
 ### **授权管理**
 
+### **授权管理**
+
 网址 https://admin.goodmc.cn/
 
 授权码查询: 首页-用户信息

@@ -5,9 +5,11 @@ sidebar_position: 3
 # 插件购买
 
 :::info
-**获取价格: 非卖品**
 
-**联系方式: QQ15568820**
+**价格: 购买 SpaceRingPlus 赠送**
+
+**Q Q: QQ15568820**
+
 :::
 
 :::caution 购买完全版即表示您同意：
