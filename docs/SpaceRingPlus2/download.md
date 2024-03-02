@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # 插件下载
 
-:::info `1.2.9`
+:::info `1.3.0`
 
 **更新**
 
@@ -12,7 +12,15 @@ sidebar_position: 3
 
 **附件**
 
-[SpaceRingPlus2-1.2.9.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.2.9.jar)
+[SpaceRingPlus2-1.3.0.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.3.0.jar)
+
+:::
+
+:::info `1.2.9`
+
+**更新**
+
+1. 修复与其它插件冲突问题
 
 :::
 
