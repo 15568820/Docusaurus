@@ -4,15 +4,23 @@ sidebar_position: 3
 
 # 插件下载
 
+:::info `1.3.3-beta1`
+
+**更新**
+
+1. 优化插件流畅度，提高插件稳定性
+
+**附件**
+
+[SpaceRingPlus2-1.3.3-beta1.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.3.3-beta1.jar)
+
+:::
+
 :::info `1.3.2`
 
 **更新**
 
 1. 修复后台无法执行open指令的问题
-
-**附件**
-
-[SpaceRingPlus2-1.3.2.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.3.2.jar)
 
 :::
 

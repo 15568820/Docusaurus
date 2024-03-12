@@ -4,16 +4,24 @@ sidebar_position: 2
 
 # 插件下载
 
+:::info `1.0.3-beta1`
+
+**更新**
+
+1. 优化插件流畅度，提高插件稳定性
+
+**附件**
+
+[SpaceRingShop-1.0.3-beta1.jar](https://www.goodmc.cn/plugin/SpaceRingShop/SpaceRingShop-1.0.3-beta1.jar)
+
+:::
+
 :::info `1.0.2`
 
 **更新**
 
 1. 修复后台无法执行open指令的问题
 2. 修复授权码读取问题
-
-**附件**
-
-[SpaceRingShop-1.0.2.jar](https://www.goodmc.cn/plugin/SpaceRingShop/SpaceRingShop-1.0.2.jar)
 
 :::
 
