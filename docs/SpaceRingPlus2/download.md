@@ -4,15 +4,32 @@ sidebar_position: 3
 
 # 插件下载
 
+:::info `1.3.2`
+
+**更新**
+
+1. 修复后台无法执行open指令的问题
+
+**附件**
+
+[SpaceRingPlus2-1.3.2.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.3.2.jar)
+
+:::
+
+:::info `1.3.1`
+
+**更新**
+
+1. 修复点击速度过快,插件无上限处理请求的问题
+
+:::
+
 :::info `1.3.0`
 
 **更新**
 
-1. 修复与其它插件冲突问题
-
-**附件**
-
-[SpaceRingPlus2-1.3.0.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.3.0.jar)
+1. 修复翻页总是提示最后一页的问题
+2. 新增插件指令全称别名
 
 :::
 
