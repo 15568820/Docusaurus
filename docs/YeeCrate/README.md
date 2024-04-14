@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # 插件介绍
 
-## SpaceRingShop
+## YeeCrate
 
 ### **适用版本**
 
@@ -12,184 +12,353 @@ sidebar_position: 1
 
 ### **依赖插件**
 
-> - 必要: SpaceRingPlus
+> - 必要: MythicMobs
+> - 可选: PlayerPoints
+> - 可选: Vault
+> - 可选: PlaceholderAPI
 
 ### **插件介绍**
-
-> - 本插件为SpaceRingPlus(灵魂空间)附属,插件灵感来着RPGShop
 > - 支持JSON和MySQL两种存储方式
-> - 支持消耗背包物品或灵魂空间物品两种兑换模式(每个商品可独立配置)
-> - 支持购买的物品进入背包或灵魂空间两种模式(每个商品可独立配置)
-> - 支持每日,每周,每月,累计四种限购模式
-> - 支持Shift+左键快捷查看购买需求
-> - 支持右键和Shift+右键倍率购买
+> - 支持多奖池方案
+> - 支持多奖池GUI方案
+> - 支持奖池物品保底
+> - 支持累充奖励
+> - 支持抽奖记录查询,可显示抽奖物品和时间信息
+> - 支持单抽和多抽(具体抽奖数量可自由配置)
+> - 奖池物品可以配置抽取权重
+> - 奖池物品支持预览概率,以及支持配置虚假概率
 > - 支持数据备份和数据导入
 
 ### 插件指令
 
 ![](img/插件指令.png)
 
-### **效果展示**
+### **奖池预览**
 
-![](img/效果展示1.png)
+![](img/奖池预览.png)
 
-### 商品限购
+### 抽奖记录
 
-![](img/商品限购1.png)
-![](img/商品限购2.png)
+![](img/抽奖记录1.png)
+![](img/抽奖记录2.png)
 
-#### 高效的兑换编辑界面，物品放到对应位置即可，关闭GUI自动保存
+### 累抽奖励
+
+![](img/累抽奖励1.png)
+![](img/累抽奖励2.png)
+
 
 [//]: # (![]&#40;img/兑换演示3.png&#41;)
 
 ### **配置文件**
 
 <details>
-<summary>config.yml</summary>
+<summary>奖池配置</summary>
 
   ```yaml
-# 您的授权码
-code: "IKUN-JNTM-SZ666-SUSHAN"
-# 商店默认参数
-default-shop:
-  # 物品扣除路径, Inventory 背包,SpaceRingPlus 灵魂空间
-  take-route: SpaceRingPlus
-  # 物品给予路径, Inventory 背包,SpaceRingPlus 灵魂空间
-  give-route: Inventory
-# 交易快捷键倍率
-multiple:
-  # 右键
-  right-click: 16
-  # Shift+鼠标左键
-  shift-left-click: 64
-database:
-  # 开启MySQL
-  enable: false
-  # 数据库
-  mysql:
-    host: localhost
-    port: 3306
-    user: root
-    password: root
-    database: minecraft
-# 备份
-backup:
-  # 备份间隔,支持单位: d,h,m,s
-  # 例如: 1h30m
-  period: 8h
-  # 保留备份文件数量
-  reserve: 100
+# GUI配置方案
+gui: "demo"
+# 奖池名
+name: "§c§l测         试         奖         池"
+# 抽奖次数
+crate:
+  a:
+    # 抽奖钥匙mm物品库id
+    key: "测试抽奖钥匙"
+    # 所需钥匙数量
+    amount: 1
+    # 抽奖次数
+    freq: 1
+  b:
+    key: "测试抽奖钥匙"
+    amount: 9
+    freq: 10
+# 保底
+guarantee:
+  # 奖励ID
+  reward: "白色羊毛"
+  # 保底次数
+  cumulate: 100
+# 抽奖奖池
+reward:
+  白色羊毛:
+    # 显示物品
+    show:
+      # 类型:
+      # custom(自定义),
+      # mm(mm物品库) 示例: id: "测试物品"
+      type: custom
+      material: WHITE_WOOL
+      name: "§f白色羊毛"
+      lore:
+        - "§f"
+      # 显示的概率(假概率)
+      probability: 0.05
+    # 权重
+    weight: 2
+    # 奖励列表
+    list:
+      - "type=command,command='give %player_name% 35:0 1'"
+      - "type=message,message='§a恭喜玩家 §e%player_name% §a在测试奖池中抽出了 §e白色羊毛'"
+  橙色羊毛:
+    show:
+      type: custom
+      material: ORANGE_WOOL
+    weight: 50
+    list:
+      - "type=command,command='give %player_name% 35:1 1'"
+      - "type=message,message='§a恭喜玩家 §e%player_name% §a在测试奖池中抽出了 §e橙色羊毛'"
+  品红色羊毛:
+    show:
+      type: custom
+      material: MAGENTA_WOOL
+    weight: 50
+    list:
+      - "type=command,command='give %player_name% 35:2 1'"
+      - "type=message,message='§a恭喜玩家 §e%player_name% §a在测试奖池中抽出了 §e品红色羊毛'"
+  淡蓝色羊毛:
+    show:
+      type: custom
+      material: LIGHT_BLUE_WOOL
+    weight: 50
+    list:
+      - "type=command,command='give %player_name% 35:3 1'"
+      - "type=message,message='§a恭喜玩家 §e%player_name% §a在测试奖池中抽出了 §e淡蓝色羊毛'"
+  黄色羊毛:
+    show:
+      type: custom
+      material: YELLOW_WOOL
+    weight: 50
+    list:
+      - "type=command,command='give %player_name% 35:4 1'"
+      - "type=message,message='§a恭喜玩家 §e%player_name% §a在测试奖池中抽出了 §e黄色羊毛'"
+  黄绿色羊毛:
+    show:
+      type: custom
+      material: LIME_WOOL
+    weight: 50
+    list:
+      - "type=command,command='give %player_name% 35:5 1'"
+      - "type=message,message='§a恭喜玩家 §e%player_name% §a在测试奖池中抽出了 §e黄绿色羊毛'"
+  粉红色羊毛:
+    show:
+      type: custom
+      material: PINK_WOOL
+    weight: 50
+    list:
+      - "type=command,command='give %player_name% 35:6 1'"
+      - "type=message,message='§a恭喜玩家 §e%player_name% §a在测试奖池中抽出了 §e粉红色羊毛'"
+  灰色羊毛:
+    show:
+      type: custom
+      material: GRAY_WOOL
+    weight: 50
+    list:
+      - "type=command,command='give %player_name% 35:7 1'"
+      - "type=message,message='§a恭喜玩家 §e%player_name% §a在测试奖池中抽出了 §e灰色羊毛'"
+  淡灰色羊毛:
+    show:
+      type: custom
+      material: LIGHT_GRAY_WOOL
+    weight: 50
+    list:
+      - "type=command,command='give %player_name% 35:8 1'"
+      - "type=message,message='§a恭喜玩家 §e%player_name% §a在测试奖池中抽出了 §e淡灰色羊毛'"
+  青色羊毛:
+    show:
+      type: custom
+      material: CYAN_WOOL
+    weight: 50
+    list:
+      - "type=command,command='give %player_name% 35:9 1'"
+      - "type=message,message='§a恭喜玩家 §e%player_name% §a在测试奖池中抽出了 §e青色羊毛'"
+  紫色羊毛:
+    show:
+      type: custom
+      material: PURPLE_WOOL
+    weight: 50
+    list:
+      - "type=command,command='give %player_name% 35:10 1'"
+      - "type=message,message='§a恭喜玩家 §e%player_name% §a在测试奖池中抽出了 §e紫色羊毛'"
+  蓝色羊毛:
+    show:
+      type: custom
+      material: BLUE_WOOL
+    weight: 50
+    list:
+      - "type=command,command='give %player_name% 35:11 1'"
+      - "type=message,message='§a恭喜玩家 §e%player_name% §a在测试奖池中抽出了 §e蓝色羊毛'"
+  棕色羊毛:
+    show:
+      type: custom
+      material: BROWN_WOOL
+    weight: 50
+    list:
+      - "type=command,command='give %player_name% 35:12 1'"
+      - "type=message,message='§a恭喜玩家 §e%player_name% §a在测试奖池中抽出了 §e棕色羊毛'"
+  绿色羊毛:
+    show:
+      type: custom
+      material: GREEN_WOOL
+    weight: 50
+    list:
+      - "type=command,command='give %player_name% 35:13 1'"
+      - "type=message,message='§a恭喜玩家 §e%player_name% §a在测试奖池中抽出了 §e绿色羊毛'"
+  红色羊毛:
+    show:
+      type: custom
+      material: RED_WOOL
+    weight: 50
+    list:
+      - "type=command,command='give %player_name% 35:14 1'"
+      - "type=message,message='§a恭喜玩家 §e%player_name% §a在测试奖池中抽出了 §e红色羊毛'"
+  黑色羊毛:
+    show:
+      type: custom
+      material: BLACK_WOOL
+    weight: 50
+    list:
+      - "type=command,command='give %player_name% 35:15 1'"
+      - "type=message,message='§a恭喜玩家 §e%player_name% §a在测试奖池中抽出了 §e黑色羊毛'"
+# 累计抽奖奖励
+cumulate:
+  3抽:
+    # 显示物品
+    show:
+      material: CHEST
+      name: "§f3抽"
+      lore:
+        - "§f "
+        - "§f- §e10000金币"
+        - "§f- §e500点券"
+        - "§f "
+        - "%state%"
+      amount: 3
+    # 所需累抽次数
+    need: 3
+    # 奖励
+    list:
+      - "type=money,amount=10000"
+      - "type=playerpoints,amount=500"
+    # 显示位置
+    index: 10
+  5抽:
+    show:
+      material: CHEST
+      name: "§f5抽"
+      lore:
+        - "§f "
+        - "§f- §e50000金币"
+        - "§f- §e1000点券"
+        - "§f "
+        - "%state%"
+      amount: 5
+    need: 5
+    list:
+      - "type=money,amount=50000"
+      - "type=playerpoints,amount=1000"
+    index: 12
+
+  10抽:
+    show:
+      material: CHEST
+      name: "§f10抽"
+      lore:
+        - "§f "
+        - "§f- §e100000金币"
+        - "§f- §e2000点券"
+        - "§f "
+        - "%state%"
+      amount: 10
+    need: 10
+    list:
+      - "type=money,amount=100000"
+      - "type=playerpoints,amount=2000"
+    index: 14
+
+  15抽:
+    show:
+      material: CHEST
+      name: "§f15抽"
+      lore:
+        - "§f "
+        - "§f- §e200000金币"
+        - "§f- §e5000点券"
+        - "§f "
+        - "%state%"
+      amount: 15
+    need: 15
+    list:
+      - "type=money,amount=200000"
+      - "type=playerpoints,amount=5000"
+    index: 16
+
 
   ```
 
 </details>
 
 
+
 <details>
-<summary>gui.yml</summary>
+<summary>奖池GUI方案</summary>
 
   ```yaml
-shop-trade:
-  title: "%title%"
-  direction:
-    buy:
-      - "§f"
-      - "§7---[出售获得]---"
-    sell:
-      - "§f"
-      - "§7---[购买需求]---"
-    info:
-      - "§f"
-      - "§f   右  键   兑换16个"
-      - "§f Shift+左键 兑换64个"
-      - "§f Shift+右键 查看合成配方"
-    limit-purchase:
-      - "§f"
-      - "§7---[商品限购]---"
-  icons:
-    buy: '§3◎§r'
-    sell-enough: '§a§l✔§r'
-    sell-insufficient: '§c✘§r'
-  lore:
-    item-notice:
-      buy: '%icon% §f%item_name% §r× %amount%'
-      sell: '%icon% §f%item_name% §r× %amount%'
-    buy:
-      check-enough: '§a(可以出售)'
-      check-insufficient: '§c(§l没有足够的物品出售§r§c)'
-    limit-purchase:
-      day: "§3每日限购 §f%count%/%max%"
-      week: "§3每周限购 §f%count%/%max%"
-      month: "§3每月限购 §f%count%/%max%"
-      total: "§3累计限购 §f%count%/%max%"
-shop-edit:
-  title: "商店编辑"
-recipe-info:
-  title: "配方详情"
-recipe-edit:
-  title: "设置交易物品需求"
-  material:
-    decorate:
-      material: BLACK_STAINED_GLASS_PANE
-      name: "§f "
-      lore:
-        - "§f "
-    trade-type:
-      material: TRIPWIRE_HOOK
-      name: "§3设置该物品的出售方向"
-      lore:
-        - "§f当前 §e%type%"
-    take-type:
-      material: CHEST
-      name: "§3设置扣除物品的路径"
-      lore:
-        - "§f当前 §e%type%"
-    give-type:
-      material: CHEST
-      name: "§3设置给予物品的路径"
-      lore:
-        - "§f当前 §e%type%"
-    limit-purchase:
-      material: CHEST
-      name: "§3限购配置"
-      lore:
-        - "§f每日限购 §e%day%"
-        - "§f每周限购 §e%week%"
-        - "§f每月限购 §e%month%"
-        - "§f累计限购 §e%total%"
-limit-purchase:
-  title: "限购配置"
-  material:
-    decorate:
-      material: BLACK_STAINED_GLASS_PANE
-      name: "§f "
-      lore:
-        - "§f "
-    day:
-      material: NETHER_STAR
-      name: "§3每日限购"
-      lore:
-        - "§f当前 §e%number%"
-      amount: 1
-    week:
-      material: NETHER_STAR
-      name: "§3每周限购"
-      lore:
-        - "§f当前 §e%number%"
-      amount: 7
-    month:
-      material: NETHER_STAR
-      name: "§3每月限购"
-      lore:
-        - "§f当前 §e%number%"
-      amount: 30
-    total:
-      material: NETHER_STAR
-      name: "§3累计限购"
-      lore:
-        - "§f当前 §e%number%"
-      amount: 64
-
+# 按钮
+button:
+  # 单抽
+  one: A
+  # 多抽
+  multiple: B
+  # 奖池详情
+  info: I
+  # 抽奖记录
+  log: L
+  # 累抽奖励
+  cumulate: C
+# 页面布局
+layout:
+  - "#########"
+  - "###A#B###"
+  - "#########"
+  - "##I#L#C##"
+  - "#########"
+#布局材料及槽位
+materials:
+  "#":
+    material: BLACK_STAINED_GLASS_PANE
+    name: " "
+    lore:
+      - "§f "
+  "A":
+    material: END_PORTAL_FRAME
+    name: "§f单抽"
+    lore:
+      - "§f "
+      - "§f奖池钥匙: %key-a%§f*%key-amount-a%"
+  "B":
+    material: END_PORTAL_FRAME
+    name: "§f10抽"
+    lore:
+      - "§f "
+      - "§f奖池钥匙: %key-b%§f*%key-amount-b%"
+  "I":
+    material: ITEM_FRAME
+    name: "§f奖池详情"
+    lore:
+      - "§f "
+  "L":
+    material: PLAYER_HEAD
+    name: "§f抽奖记录"
+    lore:
+      - "§f "
+      - "§f保底统计: %guarantee%"
+  "C":
+    material: CHEST
+    name: "§f累抽奖励"
+    lore:
+      - "§f "
+      - "§f当前: %crateTotal%"
 
   ```
 

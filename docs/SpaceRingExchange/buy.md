@@ -8,7 +8,7 @@ sidebar_position: 3
 
 **价格: 购买 SpaceRingPlus 赠送**
 
-**Q Q: QQ15568820**
+**Q Q: 15568820**
 
 :::
 
