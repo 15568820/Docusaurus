@@ -77,6 +77,8 @@ public void register(Plugin plugin, String pluginId, String code)
 public final void register(Plugin plugin, String pluginId, String code, Runnable runnable) 
 ```
 
+- SDK仓库 https://github.com/ye0130/authorize-sdk
+
 #### 示例代码
 
 import Tabs from '@theme/Tabs';
@@ -137,6 +139,5 @@ public final class AuthorizeDemo extends JavaPlugin {
 </TabItem>
 </Tabs>
 
-- 完整代码
-- https://github.com/ye0130/AuthorizeDemo
+- 示例仓库 https://github.com/ye0130/AuthorizeDemo
 
