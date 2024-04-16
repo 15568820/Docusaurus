@@ -47,9 +47,9 @@ https://admin.goodmc.cn
 
 ```xml
 <dependency>
-    <groupId>me.qingshou</groupId>
-    <artifactId>SimpleLib</artifactId>
-    <version>1.3.1-beta4</version>
+    <groupId>me.yeezhi</groupId>
+    <artifactId>authorize-sdk</artifactId>
+    <version>1.0.0</version>
     <scope>provided</scope>
 </dependency>
 ```
