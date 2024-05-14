@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # 插件下载
 
-:::info `1.0.3-beta1`
+:::info `1.0.3`
 
 **更新**
 
@@ -12,7 +12,7 @@ sidebar_position: 3
 
 **附件**
 
-[ScratchCard-1.0.3-beta1.jar](https://www.goodmc.cn/plugin/ScratchCard/ScratchCard-1.0.3-beta1.jar)
+[ScratchCard-1.0.3.jar](https://www.goodmc.cn/plugin/ScratchCard/ScratchCard-1.0.3.jar)
 
 :::
 

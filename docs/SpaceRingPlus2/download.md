@@ -4,16 +4,24 @@ sidebar_position: 3
 
 # 插件下载
 
+:::info `1.3.3-fix2`
+
+**更新**
+
+1. 优化插件流畅度，提高插件稳定性
+
+**附件**
+
+[SpaceRingPlus2-1.3.3-fix2.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.3.3-fix2.jar)
+
+:::
+
 :::info `1.3.3`
 
 **更新**
 
 1. 移除根据背包容量调整分解倍率
 2. 新增自定义物品变量%pageNum%(页数变量)
-
-**附件**
-
-[SpaceRingPlus2-1.3.3.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.3.3.jar)
 
 :::
 

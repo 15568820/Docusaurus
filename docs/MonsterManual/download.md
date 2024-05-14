@@ -4,16 +4,24 @@ sidebar_position: 3
 
 # 插件下载
 
+:::info`1.0.8`
+
+**更新**
+
+1. 修复怪物击杀怪物的报错
+
+**附件**
+
+[MonsterManual-1.0.8.jar](https://www.goodmc.cn/plugin/MonsterManual/MonsterManual-1.0.8.jar)
+
+:::
+
 :::info`1.0.7`
 
 **更新**
 
 1. 修复 怪物击杀数量显示问题
 2. 修复 配置文件不生成的问题
-
-**附件**
-
-[MonsterManual-1.0.7.jar](https://www.goodmc.cn/plugin/MonsterManual/MonsterManual-1.0.7.jar)
 
 :::
 
