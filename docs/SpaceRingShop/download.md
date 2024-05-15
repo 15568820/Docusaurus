@@ -10,7 +10,7 @@ sidebar_position: 2
 
 1. 优化插件流畅度，提高插件稳定性
 
-**附件**
+**下载**
 
 [SpaceRingShop-1.0.3.jar](https://www.goodmc.cn/plugin/SpaceRingShop/SpaceRingShop-1.0.3.jar)
 

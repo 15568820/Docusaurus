@@ -10,7 +10,7 @@ sidebar_position: 2
 
 1. 修复与其它插件冲突问题
 
-**附件**
+**下载**
 
 [NoTrade-1.0.6.jar](https://www.goodmc.cn/plugin/NoTrade/NoTrade-1.0.6.jar)
 

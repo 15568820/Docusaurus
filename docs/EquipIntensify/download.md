@@ -12,7 +12,7 @@ sidebar_position: 3
 
 1. 修复升级时提示属性提升数值显示错误问题
 
-**附件**
+**下载**
 
 [EquipIntensify-1.1.3.jar](https://www.goodmc.cn/plugin/EquipIntensify/EquipIntensify-1.1.3.jar)
 

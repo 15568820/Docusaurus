@@ -12,7 +12,7 @@ sidebar_position: 2
 2. 修复属性统计百分号位置问题
 3. 修复翻页后无法解锁槽位
 
-**附件**
+**下载**
 
 [HZRing-1.0.7.jar](https://www.goodmc.cn/plugin/HZRing/HZRing-1.0.7.jar)
 

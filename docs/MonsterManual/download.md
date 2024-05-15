@@ -10,7 +10,7 @@ sidebar_position: 3
 
 1. 修复怪物击杀怪物的报错
 
-**附件**
+**下载**
 
 [MonsterManual-1.0.8.jar](https://www.goodmc.cn/plugin/MonsterManual/MonsterManual-1.0.8.jar)
 

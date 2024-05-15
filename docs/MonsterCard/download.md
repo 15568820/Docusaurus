@@ -11,7 +11,7 @@ sidebar_position: 2
 1. 优化MYSQL连接池
 2. 重写插件部分代码
 
-**附件**
+**下载**
 
 [MonsterCard-1.0.7.jar](https://www.goodmc.cn/plugin/MonsterCard/MonsterCard-1.0.7.jar)
 :::

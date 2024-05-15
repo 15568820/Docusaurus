@@ -10,7 +10,7 @@ sidebar_position: 3
 
 无
 
-**附件**
+**下载**
 
 [YeeCrate-1.0.0.jar](https://www.goodmc.cn/plugin/YeeCrate/YeeCrate-1.0.0.jar)
 

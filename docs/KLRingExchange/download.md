@@ -10,7 +10,7 @@ sidebar_position: 2
 
 1. 修复兑换界面打开目标问题
 
-**附件**
+**下载**
 
 [KLRingExchange-1.0.7.jar](https://www.goodmc.cn/plugin/KLRingExchange/KLRingExchange-1.0.7.jar)
 

@@ -4,13 +4,26 @@ sidebar_position: 3
 
 # 插件下载
 
+:::info `1.3.4-beta1`
+
+**更新**
+
+1. 新增仓库物品放入黑名单功能
+2. 新增分解配置文件name和lore参数支持颜色代码&
+
+**下载**
+
+[SpaceRingPlus2-1.3.4-beta1.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.3.4-beta1.jar)
+
+:::
+
 :::info `1.3.3-fix2`
 
 **更新**
 
 1. 优化插件流畅度，提高插件稳定性
 
-**附件**
+**下载**
 
 [SpaceRingPlus2-1.3.3-fix2.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus2-1.3.3-fix2.jar)
 
@@ -253,7 +266,7 @@ sidebar_position: 3
 2. 取消打开GUI时的异步操作
 3. 兼容SX-Attribute物品库
 
-**附件**
+**下载**
 
 [SpaceRingPlus-1.0.7.jar](https://www.goodmc.cn/plugin/SpaceRingPlus/SpaceRingPlus-1.0.7.jar)
 

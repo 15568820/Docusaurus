@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="ebb2b9ff-5d3f-491e-9175-9cb187ee6f82" name="上海3号">
+      <webServer id="ebb2b9ff-5d3f-491e-9175-9cb187ee6f82" name="上海轻量">
         <fileTransfer accessType="SFTP" host="124.220.48.123" port="22" sshConfigId="97bafd22-e572-4bd5-b591-378675d2f8ed" sshConfig="root@124.220.48.123:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" connections="8" passiveMode="true" shareSSLContext="true" isUseRsync="true" isUseSudo="true" />

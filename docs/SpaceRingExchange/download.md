@@ -10,7 +10,7 @@ sidebar_position: 2
 
 1. 移除插件授权,此版本无需填写授权码
 
-**附件**
+**下载**
 
 [SpaceRingExchange-1.0.5.jar](https://www.goodmc.cn/plugin/SpaceRingExchange/SpaceRingExchange-1.0.5.jar)
 
